@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul - Develover Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Atul's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Atul</span>
+                <div>and im a eager</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download resume</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="textgray">
+                What is have done so far
+            </span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical"></div>
+                <ol>
+                    <li><h2>Portfolio Website Development: </h2>
+
+                        Designed and developed a personal portfolio website to showcase projects, skills, and achievements.
+                        Utilized HTML and CSS for a responsive and visually appealing design.
+                        Integrated interactive elements and functionality using JavaScript.
+                        Ensured cross-browser compatibility and optimized site performance.</li><br>
+                    <li><h2>Web Application Development: </h2>
+                        Built multiple web-based applications, including projects like Cab Hub
+                    </li><br>
+                    <li><h2>Academic Projects: </h2>
+                        Built multiple web-based applications, including projects like Zosh Food
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Atul's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+            </div>
+            <div class="footer-fourth">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Core Java 8', 'MySql'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
